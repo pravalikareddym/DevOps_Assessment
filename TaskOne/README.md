@@ -30,4 +30,3 @@ cd ../app && docker build -t <registry>/app:latest . && docker push <registry>/a
 
 # Deploy
 kubectl apply -f k8s/
-```
