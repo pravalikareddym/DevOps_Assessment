@@ -59,5 +59,5 @@ resource "azurerm_linux_virtual_machine" "example" {
     version   = "latest"
   }
 
-  custom_data = filebase64("../metadata_query/init.sh") # Optional: Add metadata script on boot
+  custom_data = filebase64("../metadata_query/init.sh")
 }
