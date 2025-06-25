@@ -61,3 +61,4 @@ resource "azurerm_linux_virtual_machine" "example" {
 
   custom_data = filebase64("../metadata_query/init.sh")
 }
+
